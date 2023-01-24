@@ -10,9 +10,9 @@
               <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
               <a href="/" class="<?= routeIs('/') ? 'bg-gray-900 text-white' : "text-gray-300 hover:bg-gray-700 hover:text-white" ?> px-3 py-2 rounded-md text-sm font-medium" aria-current="home">Home</a>
 
-              <a href="/about.php" class="<?= routeIs('/about.php') ? 'bg-gray-900 text-white' : "text-gray-300 hover:bg-gray-700 hover:text-white" ?> px-3 py-2 rounded-md text-sm font-medium">About</a>
+              <a href="/about" class="<?= routeIs('/about.php') ? 'bg-gray-900 text-white' : "text-gray-300 hover:bg-gray-700 hover:text-white" ?> px-3 py-2 rounded-md text-sm font-medium">About</a>
               
-              <a href="/contact.php" class="<?= routeIs('/contact.php') ? 'bg-gray-900 text-white' : "text-gray-300 hover:bg-gray-700 hover:text-white" ?> px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+              <a href="/contact" class="<?= routeIs('/contact.php') ? 'bg-gray-900 text-white' : "text-gray-300 hover:bg-gray-700 hover:text-white" ?> px-3 py-2 rounded-md text-sm font-medium">Contact</a>
             </div>
           </div>
         </div>
