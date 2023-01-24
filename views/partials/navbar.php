@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head class="h-full bg-gray-100">
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <title>Vanilla Php</title>
-</head>
-<body class="h-full">
-<div class="min-h-full">
-  <nav class="bg-gray-800">
+<nav class="bg-gray-800">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div class="flex h-16 items-center justify-between">
         <div class="flex items-center">
@@ -133,22 +122,3 @@
       </div>
     </div>
   </nav>
-
-  <header class="bg-white shadow">
-    <div class="mx-auto max-w-7xl py-6 px-4 sm:px-6 lg:px-8">
-      <h1 class="text-3xl font-bold tracking-tight text-gray-900">Home</h1>
-    </div>
-  </header>
-  <main>
-    <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
-      <!-- Replace with your content -->
-      <div class="px-4 py-6 sm:px-0">
-        <h2>Hello From Home</h2>
-      </div>
-      <!-- /End replace -->
-    </div>
-  </main>
-</div>
-
-</body>
-</html>
