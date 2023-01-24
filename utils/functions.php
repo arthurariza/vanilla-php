@@ -7,3 +7,7 @@ function dd($value) {
 
   die();
 }
+
+function routeIs($route) {
+  return $_SERVER['REQUEST_URI'] === $route;
+}
