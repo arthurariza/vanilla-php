@@ -8,10 +8,16 @@
     <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
       <!-- Replace with your content -->
       <div class="px-4 py-6 sm:px-0">
-        <h2>Hello From Home</h2>
+        <h2>Posts:</h2>
+
+        <ul>
+          <?php foreach ($posts as $post): ?>
+            <li><?= $post['title'] ?></li>
+          <?php endforeach; ?>
+        </ul>
       </div>
       <!-- /End replace -->
     </div>
   </main>
 
-<?php require "partials/footer.php" ?>
+<?php require "partials/footer.php"; ?>
